@@ -31,8 +31,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,7 +50,90 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CooperativaModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CooperativaModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CooperativaModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CooperativaModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CooperativaModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="CREDITO.cs">
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CUENTA.cs">
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DETALLE_CREDITO.cs">
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EMPLEADO.cs">
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PERSONA.cs">
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PersonaDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SOCIO.cs">
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SUCURSAL.cs">
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TIPO_CREDITO.cs">
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TIPO_CUENTA.cs">
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TIPO_IDENTIFICACION.cs">
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TIPO_TRANSACCION.cs">
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TRANSACCION.cs">
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="USUARIO.cs">
+      <DependentUpon>CooperativaModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="CooperativaModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CooperativaModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="CooperativaModel.edmx.diagram">
+      <DependentUpon>CooperativaModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CooperativaModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>CooperativaModel.Context.cs</LastGenOutput>
+      <DependentUpon>CooperativaModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="CooperativaModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CooperativaModel.edmx</DependentUpon>
+      <LastGenOutput>CooperativaModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
