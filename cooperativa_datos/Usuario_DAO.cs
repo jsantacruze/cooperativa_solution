@@ -9,16 +9,16 @@ namespace cooperativa_datos
 {
     public class Usuario_DAO
     {
-        public static List<EMPLEADO> getList(string filtro)
+        public static List<USUARIO> getList(string filtro)
         {
             try
             {
                 using (DB_CooperativaEntities db = new DB_CooperativaEntities())
                 {
-                    var result = db.EMPLEADO
-                        .Include(s => s.PERSONA)
-                        .Where(s => s.PERSONA.PersonaNombres.Contains(filtro)
-                        || s.PERSONA.PersonaApellidos.Contains(filtro))
+                    var result = db.USUARIO
+                        .Include(s => s.EMPLEADO.PERSONA)
+                        .Where(s => s.EMPLEADO.PERSONA.PersonaNombres.Contains(filtro)
+                        || s.EMPLEADO.PERSONA.PersonaApellidos.Contains(filtro))
                         .ToList();
                     return result;
                 }
