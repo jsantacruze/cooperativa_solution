@@ -59,10 +59,46 @@
     <Compile Include="frmPersonaList.Designer.cs">
       <DependentUpon>frmPersonaList.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSucursal.Designer.cs">
+      <DependentUpon>FrmSucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTipoCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTipoCuenta.Designer.cs">
+      <DependentUpon>FrmTipoCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Empleado.Designer.cs">
+      <DependentUpon>Frm_Empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Socio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Socio.Designer.cs">
+      <DependentUpon>Frm_Socio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmPersonaList.resx">
       <DependentUpon>frmPersonaList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSucursal.resx">
+      <DependentUpon>FrmSucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTipoCuenta.resx">
+      <DependentUpon>FrmTipoCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Empleado.resx">
+      <DependentUpon>Frm_Empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Socio.resx">
+      <DependentUpon>Frm_Socio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -74,7 +110,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\cooperativa_datos.EMPLEADO.datasource" />
     <None Include="Properties\DataSources\cooperativa_datos.PERSONA.datasource" />
+    <None Include="Properties\DataSources\cooperativa_datos.SOCIO.datasource" />
+    <None Include="Properties\DataSources\cooperativa_datos.SUCURSAL.datasource" />
+    <None Include="Properties\DataSources\cooperativa_datos.TIPO_CUENTA.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
