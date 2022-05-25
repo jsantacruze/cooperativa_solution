@@ -47,6 +47,7 @@
     <Compile Include="Socio_BO.cs" />
     <Compile Include="Sucursal_BO.cs" />
     <Compile Include="TipoCuenta_BO.cs" />
+    <Compile Include="Usuario_BO.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\cooperativa_datos\cooperativa_datos.csproj">

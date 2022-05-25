@@ -9,6 +9,16 @@ namespace cooperativa_negocio
 {
     public class Usuario_BO
     {
-
+        public static List<USUARIO> getList(string filtro)
+        {
+            try
+            {
+                return Usuario_DAO.getList(filtro);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

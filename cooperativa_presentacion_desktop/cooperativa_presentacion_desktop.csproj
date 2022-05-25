@@ -71,6 +71,12 @@
     <Compile Include="FrmTipoCuenta.Designer.cs">
       <DependentUpon>FrmTipoCuenta.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuario.Designer.cs">
+      <DependentUpon>FrmUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Empleado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +100,9 @@
     <EmbeddedResource Include="FrmTipoCuenta.resx">
       <DependentUpon>FrmTipoCuenta.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuario.resx">
+      <DependentUpon>FrmUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Empleado.resx">
       <DependentUpon>Frm_Empleado.cs</DependentUpon>
     </EmbeddedResource>
@@ -115,6 +124,7 @@
     <None Include="Properties\DataSources\cooperativa_datos.SOCIO.datasource" />
     <None Include="Properties\DataSources\cooperativa_datos.SUCURSAL.datasource" />
     <None Include="Properties\DataSources\cooperativa_datos.TIPO_CUENTA.datasource" />
+    <None Include="Properties\DataSources\cooperativa_datos.USUARIO.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
