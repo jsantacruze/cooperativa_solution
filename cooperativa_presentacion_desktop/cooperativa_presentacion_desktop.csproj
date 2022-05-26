@@ -100,6 +100,9 @@
     <EmbeddedResource Include="frmPersonaList.resx">
       <DependentUpon>frmPersonaList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmSucursal.resx">
       <DependentUpon>FrmSucursal.cs</DependentUpon>
     </EmbeddedResource>

@@ -16,5 +16,10 @@ namespace cooperativa_presentacion_desktop
         {
             InitializeComponent();
         }
+
+        private void creditoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
