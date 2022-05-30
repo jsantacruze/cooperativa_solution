@@ -8,6 +8,5 @@ namespace cooperativa_presentacion_desktop
 {
     internal class LUISG
     {
-        // PRUEBA
     }
 }
