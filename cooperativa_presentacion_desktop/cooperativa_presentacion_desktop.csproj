@@ -162,10 +162,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pruebas\Rene_Palacios.jpeg" />
     <Content Include="Rene.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Pruebas\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
