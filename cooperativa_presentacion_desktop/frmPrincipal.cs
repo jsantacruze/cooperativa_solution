@@ -29,5 +29,37 @@ namespace cooperativa_presentacion_desktop
                 Frm_Empleado.Show();
                 
         }
+
+        private void personasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void usuariosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form FrmUsuario = new FrmUsuario();
+            FrmUsuario.Show();
+        }
+
+        private void tipoCuentaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form FrmTipoCuenta = new FrmTipoCuenta();
+            FrmTipoCuenta.Show();
+
+        }
+
+        private void sucursalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form FrmSucursal = new FrmSucursal();
+            FrmSucursal.Show();
+
+        }
+
+        private void sociosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form Frm_Socio = new Frm_Socio();
+            Frm_Socio.Show();
+
+        }
     }
 }
