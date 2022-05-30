@@ -17,6 +17,6 @@ namespace cooperativa_presentacion_desktop
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false); 
             Application.Run(new frmPrincipal());
-        }
+        } 
     }
 }
