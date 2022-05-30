@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlexandraGuaman.cs" />
     <Compile Include="Fredy.cs" />
     <Compile Include="frmPersonaList.cs">
       <SubType>Form</SubType>
