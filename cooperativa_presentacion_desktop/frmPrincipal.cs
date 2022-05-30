@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using cooperativa_presentacion_desktop;
 
 namespace cooperativa_presentacion_desktop
 {
@@ -20,6 +21,13 @@ namespace cooperativa_presentacion_desktop
         private void creditoToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+                Form Frm_Empleado = new Frm_Empleado();
+                Frm_Empleado.Show();
+                
         }
     }
 }
