@@ -98,6 +98,7 @@
     <Compile Include="Frm_Socio.Designer.cs">
       <DependentUpon>Frm_Socio.cs</DependentUpon>
     </Compile>
+    <Compile Include="Maria_Loja.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmPersonaList.resx">
