@@ -57,6 +57,9 @@
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnagregar = new System.Windows.Forms.Button();
+            this.btneditar = new System.Windows.Forms.Button();
+            this.btneliminar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.sOCIOBindingNavigator)).BeginInit();
             this.sOCIOBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.uSUARIOBindingSource)).BeginInit();
@@ -291,11 +294,42 @@
             this.dataGridViewTextBoxColumn8.HeaderText = "UsuarioPermisoGestionarCuentas";
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             // 
+            // btnagregar
+            // 
+            this.btnagregar.Location = new System.Drawing.Point(331, 39);
+            this.btnagregar.Name = "btnagregar";
+            this.btnagregar.Size = new System.Drawing.Size(75, 23);
+            this.btnagregar.TabIndex = 11;
+            this.btnagregar.Text = "AGREGAR";
+            this.btnagregar.UseVisualStyleBackColor = true;
+            // 
+            // btneditar
+            // 
+            this.btneditar.Location = new System.Drawing.Point(250, 39);
+            this.btneditar.Name = "btneditar";
+            this.btneditar.Size = new System.Drawing.Size(75, 23);
+            this.btneditar.TabIndex = 12;
+            this.btneditar.Text = "EDITAR";
+            this.btneditar.UseVisualStyleBackColor = true;
+            this.btneditar.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // btneliminar
+            // 
+            this.btneliminar.Location = new System.Drawing.Point(412, 39);
+            this.btneliminar.Name = "btneliminar";
+            this.btneliminar.Size = new System.Drawing.Size(75, 23);
+            this.btneliminar.TabIndex = 13;
+            this.btneliminar.Text = "ELIMINAR";
+            this.btneliminar.UseVisualStyleBackColor = true;
+            // 
             // FrmUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btneliminar);
+            this.Controls.Add(this.btneditar);
+            this.Controls.Add(this.btnagregar);
             this.Controls.Add(this.uSUARIODataGridView);
             this.Controls.Add(this.btnbuscarusuario);
             this.Controls.Add(this.txtusuario);
@@ -342,5 +376,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.Button btnagregar;
+        private System.Windows.Forms.Button btneditar;
+        private System.Windows.Forms.Button btneliminar;
     }
 }

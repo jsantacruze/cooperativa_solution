@@ -23,5 +23,10 @@ namespace cooperativa_presentacion_desktop
             uSUARIOBindingSource.DataSource =
                 Usuario_BO.getList(txtusuario.Text);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

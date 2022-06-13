@@ -61,5 +61,11 @@ namespace cooperativa_presentacion_desktop
             Frm_Socio.Show();
 
         }
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form FrmUsuario = new FrmUsuario();
+            FrmUsuario.Show();
+        }
     }
 }
