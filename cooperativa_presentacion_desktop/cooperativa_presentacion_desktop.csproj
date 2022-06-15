@@ -86,6 +86,12 @@
     <Compile Include="FrmUsuario.Designer.cs">
       <DependentUpon>FrmUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_agregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_agregar.Designer.cs">
+      <DependentUpon>frm_agregar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Empleado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,6 +122,9 @@
     <EmbeddedResource Include="FrmUsuario.resx">
       <DependentUpon>FrmUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_agregar.resx">
+      <DependentUpon>frm_agregar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Empleado.resx">
       <DependentUpon>Frm_Empleado.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,6 +140,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\DataSources\cooperativa_datos.EMPLEADO.datasource" />
@@ -165,6 +175,13 @@
   <ItemGroup>
     <Content Include="Pruebas\Rene_Palacios.jpeg" />
     <Content Include="Rene.txt" />
+    <None Include="Resources\save_16px.png" />
+    <None Include="Resources\close_window_16px.png" />
+    <None Include="Resources\delete_bin_16px.png" />
+    <None Include="Resources\new.png" />
+    <None Include="Resources\nuevo.png" />
+    <None Include="Resources\find_user_male_16px.png" />
+    <None Include="Resources\edit_16px.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
