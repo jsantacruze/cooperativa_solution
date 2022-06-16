@@ -32,7 +32,8 @@ namespace cooperativa_presentacion_desktop
 
         private void personasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            Form frmPersonalist = new frmPersonaList();
+            frmPersonalist.Show();
         }
 
         private void usuariosToolStripMenuItem1_Click(object sender, EventArgs e)

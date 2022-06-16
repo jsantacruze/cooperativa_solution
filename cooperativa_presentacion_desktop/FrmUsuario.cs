@@ -36,8 +36,7 @@ namespace cooperativa_presentacion_desktop
 
         private void btnagregar_Click(object sender, EventArgs e)
         {
-            this.Hide();
-
+            
            frm_agregar frm = new frm_agregar();
 
             frm.Show();

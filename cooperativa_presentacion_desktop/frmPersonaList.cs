@@ -38,5 +38,24 @@ namespace cooperativa_presentacion_desktop
         {
             LoadData();
         }
+
+        private void btneliminar_Click(object sender, EventArgs e)
+        {
+            pERSONADataGridView.Rows.RemoveAt(pERSONADataGridView.CurrentRow.Index);
+        }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnagregar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            personadetalle frm = new personadetalle();
+
+            frm.Show();
+        }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace cooperativa_presentacion_desktop
 {
-    public partial class frm_agregar : Form
+    public partial class personadetalle : Form
     {
-        public frm_agregar()
+        public personadetalle()
         {
             InitializeComponent();
         }
@@ -20,16 +20,6 @@ namespace cooperativa_presentacion_desktop
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-        }
-
-        private void btnsaliragg_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-        }
-
-        private void frm_agregar_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

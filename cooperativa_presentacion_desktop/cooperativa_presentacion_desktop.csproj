@@ -105,6 +105,12 @@
       <DependentUpon>Frm_Socio.cs</DependentUpon>
     </Compile>
     <Compile Include="Maria_Loja.cs" />
+    <Compile Include="personadetalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personadetalle.Designer.cs">
+      <DependentUpon>personadetalle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmPersonaList.resx">
@@ -130,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Socio.resx">
       <DependentUpon>Frm_Socio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personadetalle.resx">
+      <DependentUpon>personadetalle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
