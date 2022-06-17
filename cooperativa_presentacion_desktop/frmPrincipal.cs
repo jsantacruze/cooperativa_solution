@@ -20,7 +20,8 @@ namespace cooperativa_presentacion_desktop
 
         private void creditoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Form Frm_Credito = new Frm_Credito();
+            Frm_Credito.Show();
         }
 
         private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)

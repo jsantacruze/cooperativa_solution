@@ -68,6 +68,7 @@
     <Compile Include="CREDITO.cs">
       <DependentUpon>CooperativaModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Credito_DAO.cs" />
     <Compile Include="CUENTA.cs">
       <DependentUpon>CooperativaModel.tt</DependentUpon>
     </Compile>

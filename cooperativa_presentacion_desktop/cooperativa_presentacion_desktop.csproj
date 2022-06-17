@@ -92,6 +92,12 @@
     <Compile Include="frm_agregar.Designer.cs">
       <DependentUpon>frm_agregar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Credito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Credito.Designer.cs">
+      <DependentUpon>Frm_Credito.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Empleado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +137,9 @@
     <EmbeddedResource Include="frm_agregar.resx">
       <DependentUpon>frm_agregar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Credito.resx">
+      <DependentUpon>Frm_Credito.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Empleado.resx">
       <DependentUpon>Frm_Empleado.cs</DependentUpon>
     </EmbeddedResource>
@@ -152,6 +161,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\cooperativa_datos.CREDITO.datasource" />
     <None Include="Properties\DataSources\cooperativa_datos.EMPLEADO.datasource" />
     <None Include="Properties\DataSources\cooperativa_datos.PERSONA.datasource" />
     <None Include="Properties\DataSources\cooperativa_datos.SOCIO.datasource" />
