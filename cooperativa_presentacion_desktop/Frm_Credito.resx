@@ -195,4 +195,15 @@
   <metadata name="cREDITOBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>199, 17</value>
   </metadata>
+  <data name="btnbuscarcredito.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAVFJREFUOE+1
+        kj1LxEAURbOyCFYWiiAKWomFCIKFYJNSQQSFkSSTpF5Y8DcE9D/4UdhZWCmWNjbaiFYiYiEWYrUrIoLV
+        ip43+xaWuFm18MJhZt7c+5jMxPs3WWtHYSmO42Xf98ta/p2iKFol/A6fAusTxnnd7i5jTC/mWivcRk32
+        1FasNE0nOoQdYRhOqq1YmAYxN/JhqdF8QG3FwiiXlw87aDCitu7CfJQLf8C2bv8svYcXDT/yWdNBEMzw
+        GuvAXZo+tRaL998h3JAw84z5M+FDxivGO2rDav0uTHIPt5iOkySZYl7nBOO6XWK9S5M9XTel71+FM2i9
+        wiZU4EBtTjSdpXavS8/LsqyHwim0X5ywBStwga3UdLvPW6N2rktX8DWQ54GT9TNegzSbkzDHf2O+oXH3
+        74+B6YRcFkceIrAPT3ApYXhlb0Fb/F00WLTW3nwB8kPVExHvVeAAAAAASUVORK5CYII=
+</value>
+  </data>
 </root>

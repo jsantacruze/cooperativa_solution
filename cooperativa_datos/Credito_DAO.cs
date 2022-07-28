@@ -16,9 +16,6 @@ namespace cooperativa_datos
                 using (DB_CooperativaEntities db = new DB_CooperativaEntities())
                 {
                     var result = db.CREDITO
-                        .Include(s => s.CUENTA)
-                        .Where(s => s.CUENTA.CREDITO.Contains(filtro)
-                        || s.CUENTA.CREDITO.Contains(filtro))
                         .ToList();
                     return result;
                 }
@@ -28,8 +25,5 @@ namespace cooperativa_datos
                 throw ex;
             }
         }
-
     }
-
 }
-

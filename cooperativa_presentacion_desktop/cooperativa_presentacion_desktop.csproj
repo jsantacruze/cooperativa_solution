@@ -53,9 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlexandraGuaman.cs" />
-    <Compile Include="AlexandraPalchizaca.cs" />
-    <Compile Include="Fredy.cs" />
+    <Compile Include="frmagregar_credito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmagregar_credito.Designer.cs">
+      <DependentUpon>frmagregar_credito.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPersonaList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,7 +113,6 @@
     <Compile Include="Frm_Socio.Designer.cs">
       <DependentUpon>Frm_Socio.cs</DependentUpon>
     </Compile>
-    <Compile Include="Maria_Loja.cs" />
     <Compile Include="personadetalle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +121,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmagregar_credito.resx">
+      <DependentUpon>frmagregar_credito.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPersonaList.resx">
       <DependentUpon>frmPersonaList.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,7 +197,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Pruebas\Rene_Palacios.jpeg" />
     <Content Include="Rene.txt" />
     <None Include="Resources\save_16px.png" />
     <None Include="Resources\close_window_16px.png" />

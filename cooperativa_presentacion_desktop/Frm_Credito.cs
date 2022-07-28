@@ -21,7 +21,30 @@ namespace cooperativa_presentacion_desktop
         private void btnbuscarcredito_Click(object sender, EventArgs e)
         {
             cREDITOBindingSource.DataSource =
-                Credito_BO.getList(txtcredito.Text);
+                Credito_BO.getList(Text);
         }
+
+        private void txtcredito_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnagregarcredito_Click(object sender, EventArgs e)
+        {
+
+            frmagregar_credito frm = new frmagregar_credito();
+
+            frm.Show();
+        }
+
+        private void btneliminarcredito_Click(object sender, EventArgs e)
+        {
+            cREDITODataGridView.Rows.RemoveAt(cREDITODataGridView.CurrentRow.Index);
+        }
+
+        private void btnsalircredito_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        } 
     }
 }
